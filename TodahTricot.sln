@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodahTricot.Tela", "src\TodahTricot.Tela\TodahTricot.Tela.csproj", "{73764DA9-A1C1-483C-879B-15D39A70F269}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodahTricot.Domain", "src\TodahTricot.Domain\TodahTricot.Domain.csproj", "{D258AE7E-4C93-467B-96B0-C65737952162}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodahTricot.Infra.Data", "src\TodahTricot.Infra.Data\TodahTricot.Infra.Data.csproj", "{FB35E031-14E9-4B8A-81EC-319A98253013}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodahTricot.Application", "src\TodahTricot.Application\TodahTricot.Application.csproj", "{E139CDCA-DE06-4959-9561-9B26C60CEA0C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodahTricot.Infra.Migrations", "src\TodahTricot.Infra.Migrations\TodahTricot.Infra.Migrations.csproj", "{9C9D9624-7E81-4CBE-BAB8-6996B086C57C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodahTricot.Infra.CrossCutting", "src\TodahTricot.Infra.CrossCutting\TodahTricot.Infra.CrossCutting.csproj", "{618C996D-7C38-4FFF-B8CA-D8A5E5DE7F31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73764DA9-A1C1-483C-879B-15D39A70F269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73764DA9-A1C1-483C-879B-15D39A70F269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73764DA9-A1C1-483C-879B-15D39A70F269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73764DA9-A1C1-483C-879B-15D39A70F269}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D258AE7E-4C93-467B-96B0-C65737952162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D258AE7E-4C93-467B-96B0-C65737952162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D258AE7E-4C93-467B-96B0-C65737952162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D258AE7E-4C93-467B-96B0-C65737952162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB35E031-14E9-4B8A-81EC-319A98253013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB35E031-14E9-4B8A-81EC-319A98253013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB35E031-14E9-4B8A-81EC-319A98253013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB35E031-14E9-4B8A-81EC-319A98253013}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E139CDCA-DE06-4959-9561-9B26C60CEA0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E139CDCA-DE06-4959-9561-9B26C60CEA0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E139CDCA-DE06-4959-9561-9B26C60CEA0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E139CDCA-DE06-4959-9561-9B26C60CEA0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C9D9624-7E81-4CBE-BAB8-6996B086C57C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C9D9624-7E81-4CBE-BAB8-6996B086C57C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C9D9624-7E81-4CBE-BAB8-6996B086C57C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C9D9624-7E81-4CBE-BAB8-6996B086C57C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{618C996D-7C38-4FFF-B8CA-D8A5E5DE7F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{618C996D-7C38-4FFF-B8CA-D8A5E5DE7F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{618C996D-7C38-4FFF-B8CA-D8A5E5DE7F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{618C996D-7C38-4FFF-B8CA-D8A5E5DE7F31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {451F6E05-CB06-421B-9D79-57FCE5E4E49F}
+	EndGlobalSection
+EndGlobal
